@@ -4,8 +4,6 @@
 }
 
 html body {
-  margin: 0;
-  height: 100%;
   background-image: url(../images/background.png);
 }
 
@@ -101,114 +99,112 @@ section {
   margin-right: 20px;
 }
 
-.port-1 {
+.a-port-1 {
+  float: left;
   position: relative;
-  width: 294px;
-}
-
-.i-port-1 {
   margin-top: 20px;
-  margin-right: 10px;
+  height: 200px;
+  width: 294px;
+  background-image: url(../images/port1.png);
 }
 
 .p-port-1 {
   position: absolute;
-  bottom: 20px;
+  top: 140px;
   padding: 10px 0;
   height: 40px;
   width: 294px;
   font-size: 20px;
   text-decoration: none;
+  text-align: center;
   color: #fff;
   background: #4aaaa5;
 }
 
-.port-2 {
+.a-port-2 {
+  float: right;
   position: relative;
-  width: 294px;
-}
-
-.i-port-2 {
   margin-top: 20px;
-  margin-left: 6px;
+  height: 200px;
+  width: 294px;
+  background-image: url(../images/port2.png);
 }
 
 .p-port-2 {
   position: absolute;
-  bottom: 20px;
-  left: 6px;
+  top: 140px;
   padding: 10px 0;
   height: 40px;
   width: 294px;
   font-size: 20px;
   text-decoration: none;
+  text-align: center;
   color: #fff;
   background: #4aaaa5;
 }
 
-.port-3 {
+.a-port-3 {
+  float: left;
   position: relative;
-  width: 294px;
-}
-
-.i-port-3 {
   margin-top: 20px;
-  margin-right: 10px;
+  height: 200px;
+  width: 294px;
+  background-image: url(../images/port3.png);
 }
 
 .p-port-3 {
   position: absolute;
-  bottom: 20px;
+  top: 140px;
   padding: 10px 0;
   height: 40px;
   width: 294px;
   font-size: 20px;
   text-decoration: none;
+  text-align: center;
   color: #fff;
   background: #4aaaa5;
 }
 
-.port-4 {
+.a-port-4 {
+  float: right;
   position: relative;
-  width: 294px;
-}
-
-.i-port-4 {
   margin-top: 20px;
-  margin-left: 6px;
+  height: 200px;
+  width: 294px;
+  background-image: url(../images/port4.png);
 }
 
 .p-port-4 {
   position: absolute;
-  bottom: 20px;
-  left: 6px;
+  top: 140px;
   padding: 10px 0;
   height: 40px;
   width: 294px;
   font-size: 20px;
   text-decoration: none;
+  text-align: center;
   color: #fff;
   background: #4aaaa5;
 }
 
-.port-5 {
+.a-port-5 {
+  float: left;
   position: relative;
-  width: 294px;
-}
-
-.i-port-5 {
   margin-top: 20px;
-  margin-right: 10px;
+  height: 200px;
+  width: 294px;
+  background-image: url(../images/port5.png);
 }
 
 .p-port-5 {
   position: absolute;
-  bottom: 20px;
+  top: 140px;
   padding: 10px 0;
   height: 40px;
   width: 294px;
   font-size: 20px;
   text-decoration: none;
+  text-align: center;
   color: #fff;
   background: #4aaaa5;
 }
