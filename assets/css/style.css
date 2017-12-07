@@ -10,7 +10,6 @@ html body {
 }
 
 header {
-  position: sticky;
   top: 0;
   height: 102px;
   min-width: 1000px;
@@ -57,19 +56,19 @@ a {
 
 .content-wrapper {
   min-width: 1000px;
-  
-}
-
-.content-wrapper::after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 .content-container {
   padding: 20px 0;
   margin: 0 auto;
+  margin-bottom: 112px;
   width: 960px;
+}
+
+.content-container::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 section {
@@ -183,6 +182,28 @@ section {
   position: absolute;
   bottom: 20px;
   left: 6px;
+  padding: 10px 0;
+  height: 40px;
+  width: 294px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  background: #4aaaa5;
+}
+
+.port-5 {
+  position: relative;
+  width: 294px;
+}
+
+.i-port-5 {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.p-port-5 {
+  position: absolute;
+  bottom: 20px;
   padding: 10px 0;
   height: 40px;
   width: 294px;
